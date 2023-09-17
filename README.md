@@ -1,4 +1,5 @@
-![domotica](https://github.com/william89731/zigbee2mqtt-redundancy/assets/68069659/d9638114-b43b-42df-ac97-e06290e07daa)
+![domotica](https://github.com/william89731/zigbee2mqtt-redundancy/assets/68069659/9263bacc-dbaa-4aa1-b64e-b9fc8d90febb)
+
 
 [![platform](https://img.shields.io/badge/platform-kubernetes-blue)](https://kubernetes.io/)
 [![os](https://img.shields.io/badge/os-linux-red)](https://www.linux.org/)
@@ -14,7 +15,8 @@
  - 2 instance [zigbee2mqtt](https://www.zigbee2mqtt.io/guide/installation/)
  - 1 [zigbee adapter lan](https://www.zigbee2mqtt.io/guide/adapters/#recommended)
 
-![zigbeedash](https://github.com/william89731/zigbee2mqtt-redundancy/assets/68069659/6221df54-5ebc-442d-bac9-97ff9475eaa1)
+![zigbeedash](https://github.com/william89731/zigbee2mqtt-redundancy/assets/68069659/4e8107a9-0c11-4e6e-8ac3-5bf0c153bb61)
+
 
 ```important```
 
@@ -26,7 +28,8 @@ Here, some types of installation and sample files:
 
 ```Kubernetes```
 
-![image](https://github.com/william89731/zigbee2mqtt-redundancy/assets/68069659/5e03df8d-d024-4507-879d-87aba3c752d9)
+![Screenshot from 2023-09-17 19-30-51](https://github.com/william89731/zigbee2mqtt-redundancy/assets/68069659/e53ce9eb-59a7-42b0-b877-a602911670ea)
+
 
 i have installed [microk8s](https://microk8s.io/) in cluster bareMetal (3 mini pc).
 
