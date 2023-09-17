@@ -1,0 +1,26 @@
+services:
+  zigbee2mqtt1:  
+    container_name: zigbee2mqtt1
+    image: koenkk/zigbee2mqtt
+    restart: unless-stopped
+    volumes:
+      - <<point to nfs folder>>/data:/app/data
+      - /run/udev:/run/udev:ro
+    ports:
+      # Frontend port
+      - 8080:8080
+    environment:
+      - TZ=Europe/Rome
+
+  zigbee2mqtt2:  # delete second container in case 2 servers
+    container_name: zigbee2mqtt2
+    image: koenkk/zigbee2mqtt
+    restart: unless-stopped
+    volumes:
+      - <<point to nfs folder>>/data:/app/data
+      - /run/udev:/run/udev:ro
+    ports:
+      # Frontend port
+      - 8080:8080
+    environment:
+      - TZ=Europe/Rome  
