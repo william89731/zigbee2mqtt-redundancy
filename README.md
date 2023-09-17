@@ -30,13 +30,13 @@ Here, some types of installation and sample files:
 
 i have installed [microk8s](https://microk8s.io/) in cluster bareMetal (3 mini pc).
 
-see [zigbee2mqtt.yml]()
+see [zigbee2mqtt.yml](https://github.com/william89731/zigbee2mqtt-redundancy/blob/main/zigbee2mqtt.yml)
 
 ```Docker```
 
-- 2 instance running in 1 server. [here]() file sample.
+- 2 instance running in 1 server. [here](https://github.com/william89731/zigbee2mqtt-redundancy/blob/main/docker-compose.yml) file sample.
 
-- 2 instance, 2 servers. take [docker compose]() file
+- 2 instance, 2 servers. delete second container (in docker compose file)
 
 
 
