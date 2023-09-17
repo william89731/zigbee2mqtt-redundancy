@@ -34,7 +34,13 @@ see [zigbee2mqtt.yml]()
 
 ```Docker```
 
-2 docker container, 1 zigbee adapter. [here]() file sample.
+- 2 instance running in 1 server. [here]() file sample.
+
+- 2 instance, 2 servers. take [docker compose]() file
+
+
+
+
 
 
 
