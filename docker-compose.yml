@@ -4,7 +4,7 @@ services:
     image: koenkk/zigbee2mqtt
     restart: unless-stopped
     volumes:
-      - <<point to nfs folder>>/data:/app/data
+      - <<point to nfs folder>>:/app/data
       - /run/udev:/run/udev:ro
     ports:
       # Frontend port
@@ -17,10 +17,10 @@ services:
     image: koenkk/zigbee2mqtt
     restart: unless-stopped
     volumes:
-      - <<point to nfs folder>>/data:/app/data
+      - <<point to nfs folder>>:/app/data
       - /run/udev:/run/udev:ro
     ports:
       # Frontend port
-      - 8080:8080
+      - 8081:8080
     environment:
       - TZ=Europe/Rome  
